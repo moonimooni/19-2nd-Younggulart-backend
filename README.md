@@ -32,6 +32,8 @@
 - Python
 - Django
 - MySQL
+- Docker
+- RDS
 
 ### 안내
 
