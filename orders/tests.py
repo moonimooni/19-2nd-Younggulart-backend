@@ -35,7 +35,7 @@ class FrameViewTest(TestCase):
         response = client.get('/frame/1')
         
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.json(), {'MESSAGE' : 'SUCCESS',
+        self.assertEqual(response.json(), {'message' : 'SUCCESS',
             'sizes' : [{
                 'size'  : 'S',
                 'price' : '75900.000000',
